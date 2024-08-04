@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>One for Media</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/logos/logo1.png">
+        <script src="https://kit.fontawesome.com/b328cd97ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="./"><img src="images/logos/logo1.png" class="logo"></a>
+        <ul id="sidemenu">
+            <li><a href="./agency">Agency</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="./about">Why OFM?</a></li>
+            <button>CONTACT US</button>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <p>One for Media</p>
+                <h1>We speak <span>Results,</span><br>We speak <span>Quality.</span></h1>
+            </div>
+        </div>
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="images/partners/editionone.png">
+                <img src="images/partners/vroom.png">
+                <img src="images/partners/hosny.png">
+                <img src="images/partners/lusso.png">
+                <img src="images/partners/autobahn.png">
+                <img src="images/partners/eurowheels.png">
+                <img src="images/partners/hex.png">
+            </div>
+            <script>
+                var copy = document.querySelector(".logos-slide").cloneNode(true);
+                document.querySelector(".logos").appendChild(copy);
+            </script>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
