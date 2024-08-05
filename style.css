@@ -37,8 +37,8 @@ nav {
     z-index: 5;
     top: 0;
     width: 100%;
-    padding: 0 4%;
-    margin-top: 30px;
+    padding: 0 5%;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,16 +64,17 @@ nav ul li a {
 
 nav ul li a::after {
     content: '';
+    left: 50%;
     width: 0%;
     height: 1px;
     background: #5ce1e6;
     position: absolute;
-    left: 0;
     bottom: -4px;
     transition: 0.5s;
 }
 
 nav ul li a:hover::after {
+    left: 0;
     width: 100%;
 }
 
@@ -132,20 +133,21 @@ nav ul button:hover {
     }
 }
 
-.logos {
+.partners {
     margin-top: 100px;
     overflow: hidden;
     padding: 10px 0;
     background: #000000;
     white-space: nowrap;
+    bottom: 0;
 }
 
-.logos-slide {
+.partners-slide {
     display: inline-block;
     animation: 20s slide infinite linear;
 }
 
-.logos-slide img {
+.partners-slide img {
     height: 120px;
     margin: 0 40px;
 }

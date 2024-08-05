@@ -14,10 +14,8 @@
             <li><a href="./agency">Agency</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="./about">Why OFM?</a></li>
-            <button>CONTACT US</button>
-            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            <button type="button" onclick="location.href='#contact';">CONTACT US</button>
         </ul>
-        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
     <div id="header">
         <div class="container">
@@ -26,19 +24,18 @@
                 <h1>We speak <span>Results,</span><br>We speak <span>Quality.</span></h1>
             </div>
         </div>
-        <div class="logos">
-            <div class="logos-slide">
+        <div class="partners">
+            <div class="partners-slide">
                 <img src="images/partners/editionone.png">
                 <img src="images/partners/vroom.png">
                 <img src="images/partners/hosny.png">
                 <img src="images/partners/lusso.png">
                 <img src="images/partners/autobahn.png">
                 <img src="images/partners/eurowheels.png">
-                <img src="images/partners/hex.png">
             </div>
-            <script>
-                var copy = document.querySelector(".logos-slide").cloneNode(true);
-                document.querySelector(".logos").appendChild(copy);
+            <script> <!-- Duplicating logos -->
+                var copy = document.querySelector(".partners-slide").cloneNode(true);
+                document.querySelector(".partners").appendChild(copy);
             </script>
         </div>
     </div>
