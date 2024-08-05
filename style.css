@@ -1,8 +1,9 @@
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 ::-webkit-scrollbar {
@@ -46,7 +47,7 @@ nav {
 }
 
 .logo {
-    width: 150px;
+    width: 160px;
 }
 
 nav ul li {
@@ -111,11 +112,14 @@ nav ul button:hover {
 .header-text {
     margin-top: 10%;
     font-size: 30px;
+    font-weight: 300;
     color: #5ce1e6;
+    transition: transform 0.3s ease-out;
 }
 
 .header-text h1 {
     font-size: 60px;
+    font-weight: 700;
     color: #ffffff;
     line-height: 100%;
 }
@@ -144,7 +148,7 @@ nav ul button:hover {
 
 .partners-slide {
     display: inline-block;
-    animation: 20s slide infinite linear;
+    animation: 30s slide infinite linear;
 }
 
 .partners-slide img {
@@ -156,4 +160,48 @@ nav ul button:hover {
     font-size: 60px;
     font-weight: 100;
     color: #5ce1e6;
+}
+
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 0;
+    background: #121212;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+footer h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 7px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a:hover {
+    color: #5ce1e6;
+    transform: translateY(-3px);
 }
