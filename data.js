@@ -1,18 +1,22 @@
 // FOOTER
 
 const footerData = {
-    email: "&nbsp; contact@oneformedia.net",
-    phone: "&nbsp; +20 150 8565 466",
+    address: "Mokattam",
+    email: "contact@oneformedia.net",
+    phone: "+20 150 8565 466",
     instagram: "https://www.instagram.com/oneformedia/",
     tiktok: "https://www.tiktok.com/@hex_interactive",
     copyright: "&copy; One for Media 2023-2024"
 };
 
+// Update the address
+document.getElementById('footer-address').innerHTML = `${footerData.address}`;
+
 // Update the email
-document.getElementById('footer-email').innerHTML = `<i class="fa-solid fa-envelope"></i> ${footerData.email}`;
+document.getElementById('footer-email').innerHTML = `${footerData.email}`;
 
 // Update the phone
-document.getElementById('footer-phone').innerHTML = `<i class="fa-solid fa-phone"></i> ${footerData.phone}`;
+document.getElementById('footer-phone').innerHTML = `${footerData.phone}`;
 
 // Update the social media links
 document.getElementById('instagram-link').href = footerData.instagram;
