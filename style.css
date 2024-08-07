@@ -482,7 +482,7 @@ nav .fa-solid {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .logo {
         width: 120px;
     }
