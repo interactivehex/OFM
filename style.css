@@ -38,7 +38,7 @@ nav {
     z-index: 5;
     top: 0;
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     padding: 0 10%;
     display: flex;
     align-items: center;
@@ -51,6 +51,7 @@ nav {
 
 .logo {
     width: 160px;
+    z-index: 10;
 }
 
 nav ul li {
@@ -131,6 +132,8 @@ nav ul button:hover {
     color: #5ce1e6;
 }
 
+/* partners */
+
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -159,8 +162,6 @@ nav ul button:hover {
     margin: 0 40px;
 }
 
-/* partners */
-
 #partners {
     padding: 30px 0;
 }
@@ -181,10 +182,6 @@ nav ul button:hover {
     width: 100px;
     padding: 10px;
     transition: 0.3s;
-}
-
-.partners-list a img:hover {
-    transform: scale(0.9);
 }
 
 /* services */
@@ -485,8 +482,59 @@ nav .fa-solid {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    nav {
-        height: 1vh;
+@media (max-width: 768px) {
+    .logo {
+        width: 120px;
+    }
+    nav .fa-solid {
+        display: block;
+        font-size: 25px;
+    }
+    nav ul {
+        background-color: #000000;
+        box-shadow: #000000;
+        position: absolute;
+        top: -50vh;
+        left: 0;
+        width: 100%;
+        height: 44vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: top 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 25px;
+        text-align: center;
+    }
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .header-text h1 {
+        font-size: 40px;
+    }
+    .header-text {
+        margin-top: 50%;
+        font-size: 24px;
+    }
+    .partners-slide img {
+        height: 100px;
+        margin: 0 20px;
+    }
+    .services-list, .reviewers-list, .projects-list, .footer-list {
+        grid-template-columns: 1fr;
+    }
+    #mail .container button, footer button {
+        width: 100%;
+        left: 0;
+        transform: none;
+        margin-bottom: 20px;
+    }
+    form input, form textarea {
+        padding: 10px;
+        margin: 10px 0;
     }
 }
