@@ -6,7 +6,7 @@ const footerData = {
     phone: "+20 106 6583 864",
     maps: "https://maps.app.goo.gl/1BqEwMyny8pzGkGh6",
     instagram: "https://www.instagram.com/oneformedia/",
-    tiktok: "https://www.tiktok.com/@hex_interactive",
+    tiktok: "https://www.tiktok.com/@oneformedia",
     linkedin: "https://www.linkedin.com/company/oneformedia/",
     copyright: "&copy; One for Media 2023-2024"
 };
