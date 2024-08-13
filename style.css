@@ -456,6 +456,10 @@ footer {
     padding: 15px 10%;
 }
 
+footer p {
+    font-size: 16px;
+}
+
 footer p a {
     text-decoration: none;
     color: #ffffff;
@@ -640,6 +644,9 @@ nav .fa-solid {
         padding: 10px;
         margin: 10px 0;
     }
+    footer p {
+        font-size: 12px;
+    }    
     .container {
         animation: appear ease;
         animation-timeline: view();
