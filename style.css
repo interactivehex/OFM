@@ -231,7 +231,7 @@ span.text {
 
 #services {
     padding: 30px 0;
-    background-color: #d7eaeb;
+    background-color: #ffffff;
 }
 
 #services .sub-title {
@@ -251,17 +251,17 @@ span.text {
 
 .services-list div {
     text-align: center;
-    color: #000000;
-    background: #ffffff;
+    color: #ffffff;
+    background: #000000;
     padding: 40px;
     font-size: 13px;
     font-size: 300;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 0.5s;
 }
 
 .services-list div:hover {
-    background: #ffffff60;
+    background: #000000db;
 }
 
 .services-list div h2 {
@@ -296,7 +296,7 @@ span.text {
 
 #services i {
     font-size: 30px;
-    color: #000000;
+    color: #5ce1e6;
     margin-bottom: 10px;
 }
 
@@ -361,7 +361,7 @@ span.text {
 
 #projects {
     padding: 30px 0;
-    background-color: #d7eaeb;
+    background-color: #ffffff;
 }
 
 #projects .container {
@@ -498,7 +498,7 @@ footer p a {
 
 form input, form textarea {
     width: 100%;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color: #5ce1e6;
     color: #ffffff;
@@ -506,7 +506,7 @@ form input, form textarea {
     border-radius: 10px;
     padding: 15px;
     margin: 15px 0  ;
-    resize: vertical;
+    resize: none;
 }
 
 #msg {
@@ -537,6 +537,7 @@ footer button:hover {
 
 
 /* animation on scroll */
+
 @keyframes appear {
     from {
         opacity: 0;
@@ -551,7 +552,7 @@ footer button:hover {
 .container {
     animation: appear ease;
     animation-timeline: view();
-    animation-range: entry 0% cover 75%;
+    animation-range: entry 0% cover 55%;
 }
 
 .container div {
