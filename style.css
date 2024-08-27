@@ -552,13 +552,13 @@ footer button:hover {
 .container {
     animation: appear ease;
     animation-timeline: view();
-    animation-range: entry 0% cover 55%;
+    animation-range: entry 0% cover 35%;
 }
 
 .container div {
     animation: appear ease;
     animation-timeline: view();
-    animation-range: entry 0% cover 45%;
+    animation-range: entry 0% cover 35%;
 }
 
 /* resposive css for small screens */
