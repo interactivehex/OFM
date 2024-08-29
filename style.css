@@ -111,7 +111,7 @@ nav ul button:hover {
 
 /* header */
 
-#header {
+#header, #agency-header {
     width: 100%;
     height: 100vh;
     background-color: #000000;
@@ -708,6 +708,23 @@ nav .fa-solid {
         left: 25px;
         cursor: pointer;
     }
+    #agency-header {
+        height: 120vh;
+    }
+    #about-header {
+        height: 150vh;
+    }
+    #about-header h1 {
+        margin-top: 100px;
+    }
+    #about-header img {
+        width: 100%;
+        float: none;
+        transform: translateY(50px);
+    }
+    #agency-header .header-text p {
+        margin-top: 200px;
+    }
     .header-text h1 {
         font-size: 40px;
     }
@@ -723,24 +740,24 @@ nav .fa-solid {
     .stats {
         flex-wrap: wrap;
         gap: 30px;
-        bottom: 10px;
+        bottom: -18vh;
     }
     .stats-container {
         width: 100%;
     }
     .stats i {
-        font-size: 15px;
+        font-size: 20px;
         color: #5ce1e6;
         margin-bottom: 5px;
     }
     span.num {
         color: #ffffff;
         font-weight: 800;
-        font-size: 18px;
+        font-size: 22px;
     }
     span.text {
         color: #ffffff;
-        font-size: 12px;
+        font-size: 16px;
     }
     .services-list, .reviewers-list, .projects-list, .footer-list {
         grid-template-columns: 1fr;
