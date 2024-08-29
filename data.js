@@ -8,7 +8,7 @@ const footerData = {
     instagram: "https://www.instagram.com/oneformedia/",
     tiktok: "https://www.tiktok.com/@oneformedia",
     linkedin: "https://www.linkedin.com/company/oneformedia/",
-    copyright: "&copy; One for Media 2023-2024"
+    copyright: "&copy; One for Media 2024"
 };
 
 // Update the address

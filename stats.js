@@ -1,14 +1,16 @@
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 2000;
 
 valueDisplays.forEach((valueDisplay) => {
     let startValue = 0;
-    let endValue = parseInt(valueDisplay.getAttribute("data-value").replace(/,/g, '')); // Remove commas before parsing
+    let endValue = parseInt(valueDisplay.getAttribute("data-value"));
+    let interval = parseInt(valueDisplay.getAttribute("interval"));
     let duration = Math.floor(interval / endValue);
-    let counter = setInterval(function() {
+
+    let counter = setInterval(() => {
         startValue += 1;
-        valueDisplay.textContent = startValue.toLocaleString(); // Add commas for thousands
-        if(startValue == endValue) {
+        valueDisplay.textContent = startValue.toLocaleString();
+
+        if (startValue >= endValue) {
             clearInterval(counter);
         }
     }, duration);
