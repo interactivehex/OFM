@@ -35,6 +35,8 @@ body {
     padding: 10px 10%;
 }
 
+/* navbar */
+
 nav {
     position: fixed;
     z-index: 5;
