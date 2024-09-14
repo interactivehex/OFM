@@ -217,14 +217,9 @@ nav ul button:hover {
     flex-wrap: wrap;
 }
 
-.partners-list a {
-    margin: 10px;
-}
-
-.partners-list a img {
+.partners-list img {
     width: 100px;
     padding: 10px;
-    transition: 0.3s;
 }
 
 /* stats */
@@ -338,6 +333,54 @@ span.text {
     font-size: 30px;
     color: #5ce1e6;
     margin-bottom: 10px;
+}
+
+/* portfolio */
+
+#portfolio {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+#portfolio .sub-title {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.portfolio-list div {
+    text-align: center;
+    color: #ffffff;
+    background: #101010;
+    padding: 20px;
+    font-size: 13px;
+    font-size: 300;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.portfolio-list div:hover {
+    background: #151515;
+}
+
+.portfolio-list div h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.portfolio-list div img {
+    width: 100%;
+    border-radius: 15px;
 }
 
 /* reviews */
