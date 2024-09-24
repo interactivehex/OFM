@@ -169,12 +169,6 @@ nav ul button:hover {
     line-height: 120%;
 }
 
-.about-image {
-    width: 30%;
-    float: right;
-    transform: translateY(-300px);
-}
-
 /* partners */
 
 @keyframes slide {
@@ -366,6 +360,11 @@ span.text {
     font-size: 300;
     border-radius: 20px;
     transition: 0.3s;
+}
+
+.portfolio-list a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .portfolio-list div:hover {
