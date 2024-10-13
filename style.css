@@ -126,17 +126,35 @@ nav ul button:hover {
 
 .header-text {
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 300;
     color: #5ce1e6;
     transition: transform 0.3s ease-out;
 }
 
+.portfolio-header-text {
+    margin-top: 18%;
+    font-size: 38px;
+    font-weight: 300;
+    color: #5ce1e6;
+    transition: transform 0.3s ease-out;
+}
 .header-text h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 700;
     color: #ffffff;
     line-height: 100%;
+}
+
+.portfolio-header-text h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 120%;
+}
+
+.portfolio-header-text span {
+    color: #5ce1e6;
 }
 
 .header-text span {
@@ -154,16 +172,8 @@ nav ul button:hover {
     text-align: left;
 }
 
-#about-header .header-text {
-    margin-top: 17%;
-    font-size: 20px;
-    font-weight: 300;
-    color: #5ce1e6;
-    transition: transform 0.3s ease-out;
-}
-
 #about-header .header-text h1 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 500;
     color: #ffffff;
     line-height: 120%;
@@ -181,7 +191,7 @@ nav ul button:hover {
 }
 
 .partners {
-    margin-top: 100px;
+    margin-top: 120px;
     overflow: hidden;
     padding: 10px 0;
     background: #000000;
@@ -762,7 +772,7 @@ nav .fa-solid {
     }
     #about-header .header-text {
         margin-top: 150%;
-        font-size: 20px;
+        font-size: 24px;
     }
     #about-header .header-text h1 {
         font-size: 20px;
@@ -780,9 +790,12 @@ nav .fa-solid {
         font-size: 40px;
     }
     .header-text {
-        margin-top: 50%;
+        margin-top: 100%;
         transform: translate(0, -30%);
         font-size: 24px;
+    }
+    .partners {
+        margin-top: 0;
     }
     .partners-slide img {
         height: 100px;

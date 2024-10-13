@@ -7,7 +7,7 @@ valueDisplays.forEach((valueDisplay) => {
     let duration = Math.floor(interval / endValue);
 
     let counter = setInterval(() => {
-        startValue += 1;
+        startValue += 7;
         valueDisplay.textContent = startValue.toLocaleString();
 
         if (startValue >= endValue) {
