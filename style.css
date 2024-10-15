@@ -139,6 +139,7 @@ nav ul button:hover {
     color: #5ce1e6;
     transition: transform 0.3s ease-out;
 }
+
 .header-text h1 {
     font-size: 80px;
     font-weight: 700;
@@ -785,6 +786,13 @@ nav .fa-solid {
     }
     #agency-header .header-text p {
         margin-top: 200px;
+    }
+    .portfolio-header-text {
+        font-size: 25px;
+        margin-top: 50%;
+    }
+    .portfolio-header-text h1 {
+        font-size: 35px;
     }
     .header-text h1 {
         font-size: 40px;
