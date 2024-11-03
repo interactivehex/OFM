@@ -4,7 +4,6 @@ const footerData = {
     address: "Block 1790, Al-Hamdy Street off Baron School Street, El-Mokattam",
     email: "contact@oneformedia.net",
     phone: "+20 106 6583 864",
-    phone2: "+20 127 9543 189",
     maps: "https://maps.app.goo.gl/1BqEwMyny8pzGkGh6",
     instagram: "https://www.instagram.com/oneformedia/",
     tiktok: "https://www.tiktok.com/@oneformedia",
@@ -20,7 +19,6 @@ document.getElementById('footer-email').innerHTML = `${footerData.email}`;
 
 // Update the phone
 document.getElementById('footer-phone').innerHTML = `${footerData.phone}`;
-document.getElementById('footer-phone2').innerHTML = `${footerData.phone2}`;
 
 // Update the links
 document.getElementById('maps-link').href = footerData.maps;
