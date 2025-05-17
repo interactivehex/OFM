@@ -1,14 +1,14 @@
 // FOOTER
 
 const footerData = {
-    address: "Block 1790, Al-Hamdy Street off Baron School Street, El-Mokattam",
+    address: "10 Al Sebaq st, Masr El Gdeda, Cairo",
     email: "contact@oneformedia.net",
     phone: "+20 106 6583 864",
     maps: "https://maps.app.goo.gl/1BqEwMyny8pzGkGh6",
     instagram: "https://www.instagram.com/oneformedia/",
     tiktok: "https://www.tiktok.com/@oneformedia",
     linkedin: "https://www.linkedin.com/company/oneformedia/",
-    copyright: "&copy; One for Media 2024"
+    copyright: "&copy; One for Media 2025"
 };
 
 // Update the address
